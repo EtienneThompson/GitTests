@@ -6,7 +6,7 @@ class TestNothing(unittest.TestCase):
         pass
 
     def test_nothing_2(self):
-        pass
+        raise RuntimeError("This should be committed on 'push' branch.")
 
     def test_nothing_3(self):
         pass
