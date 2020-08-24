@@ -4,7 +4,7 @@ import unittest
 
 class TestNothing(unittest.TestCase):
     def test_nothing_1(self):
-        pass
+        print("hello world")
 
     def test_nothing_2(self):
         pass
